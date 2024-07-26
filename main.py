@@ -3,7 +3,7 @@ import streamlit as st
 
 st.title("ICS Insurance Agent Service")
 
-client = OpenAI(api_key="sk-proj-PgPEQesaseiZ3Qo8sXrBT3BlbkFJ6ELIMMwGx61G4DP8uDec")
+client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
 chatContext = '''
 
