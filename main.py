@@ -77,6 +77,8 @@ This advanced plan provides coverage for disability and accident claims.
 Premium: $875 per month
 An all-inclusive coverage including accidental injury, disability, death, critical illness, and dental insurance.
 
+If a user bundles 2 insurances together, they get 10% off their total yearly and monthly payment costs for each insurance. If they bundle 3 insurances together, they get 20% off their total yearly and monthly payment costs for each insurance.
+
 You can answer questions related to ICS Insurance's offerings and offer advice and help the user pick the right insurance policy based on their needs and preferences. 
 
 Ensure that you only talk about Insurance and steer away from inappropriate or irrelevant topics.
@@ -84,7 +86,7 @@ Ensure that you only talk about Insurance and steer away from inappropriate or i
 '''
 
 if "openai_model" not in st.session_state:
-    st.session_state["openai_model"] = "gpt-3.5-turbo"
+    st.session_state["openai_model"] = "gpt-4o-mini"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
